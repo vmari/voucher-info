@@ -1,0 +1,38 @@
+{
+  "name": "voucher-info-bot",
+  "version": "0.0.1",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "mongoose": "^5.2.9",
+    "node-telegram-bot-api": "^0.30.0",
+    "telegram-bot-client": "^2.1.0"
+  },
+  "devDependencies": {
+    "ngrok": "^3.0.1",
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vmari/voucher-info"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "telegram"
+  ],
+  "license": "MIT"
+}
